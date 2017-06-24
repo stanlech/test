@@ -1,0 +1,186 @@
+body
+{
+  font-size: 16px;
+  color: #fff;
+  background-color: #0066ff;
+  font-family: cursive;
+
+}
+#header-nav
+{
+  background-color: #eee;
+  border-radius: 0;
+  border: 0;
+}
+#logo-img
+{
+  background: url('../logo.png') no-repeat;
+  width: 150px;
+  height: 150px;
+  margin: 10px 15px 10px 0;
+}
+.navbar-brand h1
+{
+  color: black;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+
+}
+.navbar-brand
+{
+  padding-top: 25px;
+}
+.navbar-brand a:hover, .navbar-brand a:focus
+{
+  text-decoration: none;
+}
+.navbar-brand p
+{
+  margin-top: 15px;
+}
+.navbar-brand p span
+{
+  vertical-align: middle;
+
+}
+#nav-list
+{
+  margin-top: 25px;
+}
+#nav-list a
+{
+  color: #0066ff;
+  text-align: center;
+}
+#nav-list a:hover
+{
+  background: #E7E7E7;
+}
+#nav-list a span
+{
+  font-size: 1.8em;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar
+{
+  border: 1px solid #0066ff;
+}
+.navbar-header button.navbar-toggle
+{
+  clear: both;
+}
+.container .jumbotron
+{
+  box-shadow: 0 0 50px #3f0c1f;
+  border: 2px solid #000;
+}
+#omnie, #html, #css3, #map
+{
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #000;
+  overflow: hidden;
+  text-align: center;
+}
+#omnie:hover, #html:hover, #css3:hover, #map:hover
+{
+  box-shadow: 0 2px 7px 2px #ccc;
+}
+#omnie span, #html span, #css3 span, #map span
+{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 1.8em;
+  width: 100%;
+  background: #000;
+  color: #fff;
+  opacity: .8;
+}
+#omnie p, #html p, #css3 p
+{
+  margin-top: 15px;
+  padding: 10px
+}
+@media (max-width: 767px)
+{
+  .navbar-brand
+  {
+    padding-top: 10px;
+  }
+  .navbar-brand h1
+  {
+    font-size: 1.3em;
+  }
+  .navbar-brand span
+  {
+    font-size: .9em;
+  }
+  #nav-list a span
+  {
+    font-size: 1em;
+    margin-right: 5px;
+  }
+  .jumbotron
+  {
+    padding: 0;
+  }
+  .container .jumbotron
+  {
+    padding: 0
+  }
+}
+@media (min-width: 1200px)
+{
+  .jumbotron
+  {
+    background: url('../kodowanie1200.jpg') no-repeat;
+    height: 538px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px)
+{
+  .jumbotron
+  {
+    background: url('../kodowanie992.jpg') no-repeat;
+    height: 417px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px)
+{
+  .jumbotron
+  {
+    background: url('../kodowanie768.jpg') no-repeat;
+    height: 323px;
+  }
+}
+@media (max-width:479px)
+{
+  .navbar-toggle
+  {
+    margin-right: 10px
+    padding: 7px 8px;
+  }
+  .navbar-brand h1
+  {
+    padding-top: 5px;
+    font-size: 7vw;
+  }
+  .navbar-brand span
+  {
+    font-size: .7em;
+  }
+  #omnie span, #html span, #css3 span, #map span
+  {
+    font-size: 1em;
+  }
+  #omnie p, #html p, #css3 p
+  {
+    font-size: .8em;
+  }
+}
