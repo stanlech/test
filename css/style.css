@@ -2,7 +2,7 @@ body
 {
   font-size: 16px;
   color: #fff;
-  background-color: #0066ff;
+  background: url('../tlo.jpg');
   font-family: cursive;
 
 }
@@ -14,7 +14,7 @@ body
 }
 #logo-img
 {
-  background: url('../logo.png') no-repeat;
+  background: url('../logo.jpg') no-repeat;
   width: 150px;
   height: 150px;
   margin: 10px 15px 10px 0;
@@ -74,7 +74,7 @@ body
 }
 .container .jumbotron
 {
-  box-shadow: 0 0 50px #3f0c1f;
+  box-shadow: 0 0 50px #fff;
   border: 2px solid #000;
 }
 #omnie, #html, #css3, #map
@@ -106,6 +106,36 @@ body
 {
   margin-top: 15px;
   padding: 10px
+}
+.panel-footer
+{
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color: #222;
+  border-top: 0;
+}
+.panel-footer div.row
+{
+  margin-bottom: 35px;
+}
+#adres, #telefon
+{
+  line-height: 2;
+}
+#adres > span, #telefon > span
+{
+  font-size: 1.3em;
+}
+#adres p
+{
+  color: #557c3e;
+  font-size: .8em;
+  line-height: 1.8;
+}
+#telefon
+{
+  font-style: italic;
 }
 @media (max-width: 767px)
 {
