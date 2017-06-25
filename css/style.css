@@ -137,6 +137,15 @@ body
 {
   font-style: italic;
 }
+#dogory
+{
+  font-size: 2em;
+  text-align: center;
+}
+#dogory p
+{
+  font-size: .9em;
+}
 @media (max-width: 767px)
 {
   .navbar-brand
