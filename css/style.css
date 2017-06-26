@@ -15,9 +15,10 @@ body
 #logo-img
 {
   background: url('../logo.jpg') no-repeat;
-  width: 150px;
+  width: 100px;
   height: 150px;
   margin: 10px 15px 10px 0;
+  border: 1px solid black;
 }
 .navbar-brand h1
 {
@@ -112,8 +113,9 @@ body
   margin-top: 30px;
   padding-top: 35px;
   padding-bottom: 30px;
-  background-color: #222;
+  background-color: #eee;
   border-top: 0;
+  color: #000;
 }
 .panel-footer div.row
 {
