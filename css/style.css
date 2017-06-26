@@ -199,6 +199,11 @@ body
   {
     background: url('../kodowanie768.jpg') no-repeat;
     height: 323px;
+
+  }
+  hr
+  {
+    border-top: 1px solid #000;
   }
 }
 @media (max-width:479px)
@@ -224,5 +229,9 @@ body
   #omnie p, #html p, #css3 p
   {
     font-size: .8em;
+  }
+  hr
+  {
+    border-top: 1px solid #000;
   }
 }
