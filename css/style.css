@@ -78,7 +78,17 @@ body
   box-shadow: 0 0 50px #fff;
   border: 2px solid #000;
 }
-#omnie, #html, #css3, #map
+#tytul
+{
+  height: 80px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #000;
+  overflow: hidden;
+  text-align: center;
+}
+#omnie, #technik, #matura, #map, #html, #css, #js
 {
   height: 250px;
   width: 100%;
@@ -88,11 +98,11 @@ body
   overflow: hidden;
   text-align: center;
 }
-#omnie:hover, #html:hover, #css3:hover, #map:hover
+#omnie:hover, #technik:hover, #matura:hover, #map:hover, #tytul:hover, #html:hover, #css:hover, #js:hover
 {
   box-shadow: 0 2px 7px 2px #ccc;
 }
-#omnie span, #html span, #css3 span, #map span
+#omnie span, #technik span, #matura span, #map span, #html span, #css span, #js span
 {
   position: absolute;
   bottom: 0;
@@ -103,7 +113,7 @@ body
   color: #fff;
   opacity: .8;
 }
-#omnie p, #html p, #css3 p
+#omnie p, #technik p, #matura p, #html p, #css p, #js p 
 {
   margin-top: 15px;
   padding: 10px
